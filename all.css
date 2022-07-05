@@ -87,7 +87,7 @@ body {
 
 .tittle {
   font-size: 32px;
-  font-family: "PingFang TC,sans-serif";
+  font-family: "PingFang TC",sans-serif;
   font-weight: 600;
   padding-bottom: 8px;
   border-bottom: 1px solid #000;
@@ -97,16 +97,14 @@ body {
   margin-left: 16px;
   font-size: 24px;
   color: #A00404;
-  font-family: "SF Pro Text,sans-serif";
+  font-family: "SF Pro Text",sans-serif;
   font-weight: 600;
-  padding: 6px 0;
   display: inline-block;
-  vertical-align: top;
 }
 
 .intro {
   margin-top: 16px;
-  margin-bottom: 64px;
+  margin-bottom: 72px;
 }
 
 .intro-item {
@@ -119,13 +117,15 @@ body {
   font-size: 24px;
 }
 
+.intro-item p {
+  width: 642px;
+}
+
 .intro-item img {
-  width: 100px;
-  height: 100px;
   display: block;
 }
 
-.edu ul li {
+.edu ul li:nth-child(1) {
   margin-bottom: 16px;
 }
 
@@ -138,7 +138,7 @@ body {
   background: #415165;
   color: #FFFFFF;
   padding-bottom: 40px;
-  margin-bottom: 64px;
+  margin-bottom: 72px;
 }
 
 .skill h2 {
@@ -212,6 +212,10 @@ body {
 
 .footer ul li a {
   color: #ffffff;
+}
+
+.footer ul li a:hover {
+  color: red;
 }
 
 .footer ul li img {

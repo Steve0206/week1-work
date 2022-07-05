@@ -79,7 +79,7 @@ body{
 //content
 .tittle{
     font-size: 32px;
-    font-family: "PingFang TC,sans-serif";
+    font-family: "PingFang TC",sans-serif;
     font-weight: 600;
     padding-bottom: 8px;
     border-bottom: 1px solid #000;
@@ -88,15 +88,14 @@ body{
     margin-left: 16px;
     font-size: 24px;
     color: #A00404;
-    font-family: "SF Pro Text,sans-serif";
+    font-family: "SF Pro Text",sans-serif;
     font-weight: 600;
-    padding: 6px 0;
     display: inline-block;
-    vertical-align: top;
 }
+
 .intro{
     margin-top: 16px;
-    margin-bottom: 64px;
+    margin-bottom: 72px;
     &-item{
         margin-bottom: 24px;
         font-family: "PingFang TC,sans-serif";
@@ -104,14 +103,15 @@ body{
             font-weight: 600;
             font-size: 24px;
         }
+        p{
+            width: 642px;
+        }
         img{
-            width: 100px;
-            height: 100px;
             display: block;
         }
     }
 }
-.edu ul li{
+.edu ul li:nth-child(1){
     margin-bottom: 16px;
 }
 
@@ -124,7 +124,7 @@ body{
     background: #415165;
     color: #FFFFFF;
     padding-bottom: 40px;
-    margin-bottom: 64px;
+    margin-bottom: 72px;
     h2{
         font-size: 32px;
         text-align: center;
@@ -189,6 +189,9 @@ body{
             margin-bottom: 16px;
             a{
                 color: #ffffff;
+                &:hover{
+                    color: red;
+                }
             }
             img{
                 margin: 0 12px;
