@@ -107,6 +107,7 @@ body{
             width: 642px;
         }
         img{
+            margin: 8px 0;
             display: block;
         }
     }
@@ -148,6 +149,7 @@ body{
         padding-left: 24px;
         border-left: 1px solid #FFFFFF;
         li{
+            margin-bottom: 8px;
             font-family: "SF Pro Text,sans-serif";
         }
     }
@@ -189,8 +191,10 @@ body{
             margin-bottom: 16px;
             a{
                 color: #ffffff;
+                display: inline-block;
                 &:hover{
                     color: red;
+                    transform: scale(1.05);
                 }
             }
             img{
